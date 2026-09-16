@@ -1,0 +1,19 @@
+Locales["en"] = {
+    ANIM_POS_COMMAND_DESC = "Adjust animation position and rotation",
+    ANIM_POS_DONE = "Position confirmed!",
+    ANIM_POS_CANCEL = "Positioning canceled",
+    NOT_PLAYING_ANIM = "You must be playing an emote/animation to adjust position!",
+    ANIM_POS_CANT_USE_IN_VEH = "You cannot use animation positioning while in a vehicle!",
+    ANIM_POS_CAM_HEAD_TEXT = "",
+    ANIM_POS_LEASH_LIMIT = "You reached the maximum placement distance!",
+    PROMPT_TITLE_TRANSLATE = "Animation Position (Move)",
+    PROMPT_TITLE_ROTATE = "Animation Position (Rotate)",
+    PROMPT_CHANGE_MODE = "Switch Mode",
+    PROMPT_SNAP_GROUND = "Snap to Ground",
+    PROMPT_ORBIT_CAM = "Rotate Camera",
+    PROMPT_CONFIRM = "Confirm",
+    PROMPT_CANCEL = "Cancel",
+    HUD_LIVE_COORDS = "LIVE COORDINATES",
+    HUD_MOVE_MODE = "MOVE MODE",
+    HUD_ROTATE_MODE = "ROTATE MODE"
+}

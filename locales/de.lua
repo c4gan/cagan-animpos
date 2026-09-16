@@ -1,0 +1,19 @@
+Locales["de"] = {
+    ANIM_POS_COMMAND_DESC = "Animationsposition und -rotation anpassen",
+    ANIM_POS_DONE = "Position bestätigt!",
+    ANIM_POS_CANCEL = "Positionierung abgebrochen",
+    NOT_PLAYING_ANIM = "Du musst eine Animation ausführen, um die Position anzupassen!",
+    ANIM_POS_CANT_USE_IN_VEH = "Du kannst die Positionierung nicht in einem Fahrzeug nutzen!",
+    ANIM_POS_CAM_HEAD_TEXT = "",
+    ANIM_POS_LEASH_LIMIT = "Maximale Platzierungsdistanz erreicht!",
+    PROMPT_TITLE_TRANSLATE = "Animationsposition (Bewegen)",
+    PROMPT_TITLE_ROTATE = "Animationsposition (Drehen)",
+    PROMPT_CHANGE_MODE = "Modus wechseln",
+    PROMPT_SNAP_GROUND = "Am Boden ausrichten",
+    PROMPT_ORBIT_CAM = "Kamera drehen",
+    PROMPT_CONFIRM = "Bestätigen",
+    PROMPT_CANCEL = "Abbrechen",
+    HUD_LIVE_COORDS = "LIVE-KOORDINATEN",
+    HUD_MOVE_MODE = "BEWEGUNGSMODUS",
+    HUD_ROTATE_MODE = "ROTATIONSMODUS"
+}

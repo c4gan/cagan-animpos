@@ -1,0 +1,19 @@
+Locales["tr"] = {
+    ANIM_POS_COMMAND_DESC = "Animasyon pozisyonunu ve açısını ayarla",
+    ANIM_POS_DONE = "Konum onaylandı!",
+    ANIM_POS_CANCEL = "Konumlandırma iptal edildi",
+    NOT_PLAYING_ANIM = "Bir animasyonda değilsin, animasyon pozisyonu ayarlanamaz!",
+    ANIM_POS_CANT_USE_IN_VEH = "Araçtayken animasyon pozisyonunu kullanamazsın!",
+    ANIM_POS_CAM_HEAD_TEXT = "",
+    ANIM_POS_LEASH_LIMIT = "Maksimum mesafe sınırına ulaştın!",
+    PROMPT_TITLE_TRANSLATE = "Animasyon Konumu (Taşıma)",
+    PROMPT_TITLE_ROTATE = "Animasyon Konumu (Döndürme)",
+    PROMPT_CHANGE_MODE = "Mod Değiştir",
+    PROMPT_SNAP_GROUND = "Yere Oturt",
+    PROMPT_ORBIT_CAM = "Kamerayı Çevir",
+    PROMPT_CONFIRM = "Onayla",
+    PROMPT_CANCEL = "İptal",
+    HUD_LIVE_COORDS = "CANLI KOORDİNATLAR",
+    HUD_MOVE_MODE = "TAŞIMA MODU",
+    HUD_ROTATE_MODE = "DÖNDÜRME MODU"
+}

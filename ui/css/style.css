@@ -1,0 +1,205 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: transparent !important;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #e0e0e0;
+}
+
+#app {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+#gizmo-container {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+#gizmo-container canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.hud-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 20;
+    padding: 2.5vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hud-header {
+    display: flex;
+    align-items: center;
+    gap: 1.2vh;
+}
+
+.brand-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+    background: rgba(14, 15, 18, 0.78);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 8px;
+    padding: 0.8vh 1.4vh;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.brand-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4af37;
+}
+
+.brand-text {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5vh;
+}
+
+.brand-name {
+    font-size: 1.4vh;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #f5f5f5;
+}
+
+.brand-tag {
+    font-size: 1.1vh;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: #d4af37;
+}
+
+.mode-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.8vh;
+    background: rgba(14, 15, 18, 0.78);
+    border-radius: 8px;
+    padding: 0.8vh 1.4vh;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    font-size: 1.2vh;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.key-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2vh;
+    height: 2vh;
+    padding: 0 0.5vh;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    font-size: 1.1vh;
+    font-weight: 800;
+    color: #fff;
+}
+
+.mode-translate {
+    border: 1px solid rgba(74, 144, 226, 0.5);
+    color: #64b5f6;
+}
+
+.mode-translate .key-indicator {
+    border-color: rgba(74, 144, 226, 0.6);
+    background: rgba(74, 144, 226, 0.2);
+    color: #90caf9;
+}
+
+.mode-rotate {
+    border: 1px solid rgba(245, 166, 35, 0.5);
+    color: #ffb74d;
+}
+
+.mode-rotate .key-indicator {
+    border-color: rgba(245, 166, 35, 0.6);
+    background: rgba(245, 166, 35, 0.2);
+    color: #ffe082;
+}
+
+.hud-coords-card {
+    background: rgba(14, 15, 18, 0.78);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 0.8vh 1.4vh;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vh;
+    min-width: 22vh;
+}
+
+.coords-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6vh;
+    font-size: 1vh;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+}
+
+.coords-grid {
+    display: flex;
+    align-items: center;
+    gap: 1.2vh;
+}
+
+.coord-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4vh;
+    font-size: 1.2vh;
+    font-weight: 600;
+}
+
+.coord-axis {
+    font-size: 1vh;
+    font-weight: 800;
+    padding: 0.1vh 0.4vh;
+    border-radius: 3px;
+}
+
+.axis-x { background: rgba(239, 83, 80, 0.25); color: #ef5350; border: 1px solid rgba(239, 83, 80, 0.4); }
+.axis-y { background: rgba(102, 187, 106, 0.25); color: #66bb6a; border: 1px solid rgba(102, 187, 106, 0.4); }
+.axis-z { background: rgba(66, 165, 245, 0.25); color: #42a5f5; border: 1px solid rgba(66, 165, 245, 0.4); }
+.axis-rot { background: rgba(255, 167, 38, 0.25); color: #ffa726; border: 1px solid rgba(255, 167, 38, 0.4); }
+
+.coord-val {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: #f0f0f0;
+    font-size: 1.2vh;
+}
