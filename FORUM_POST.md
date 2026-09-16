@@ -8,6 +8,9 @@ Players frequently find that animations or emotes do not perfectly align with ch
 
 ---
 
+### Preview / Showcase Video
+https://streamable.com/fq7vxe
+
 ### Features
 
 - **Interactive 3D Gizmo**: Directly click and drag translation arrows (X, Y, Z) and rotation rings to place your ped with millimeter precision.

@@ -7,6 +7,11 @@ Built with a lightweight Three.js webview gizmo and modular framework bridge sup
 
 ---
 
+## 📺 Video Showcase
+[![Watch Preview](https://img.shields.io/badge/Streamable-Watch%20Showcase%20Video-blue?style=for-the-badge&logo=playstation)](https://streamable.com/fq7vxe)
+
+👉 **[Click here to watch the full showcase preview](https://streamable.com/fq7vxe)**
+
 ## ✨ Features
 
 - 🎯 **Interactive 3D Gizmo**:
